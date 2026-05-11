@@ -41,7 +41,7 @@ Target: embedded firmware internship at a German company in Vietnam by August 20
 ## Repository Structure
 SechsMonaten/        
 ├── ErsteWoche/    
-├── ZwitteWoche/     
+├── ZweiteWoche/     
 └── (future weeks)
 
 ## Author
