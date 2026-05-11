@@ -1,0 +1,20 @@
+# Compiled output
+*.exe
+*.o
+*.out
+a.out
+*.obj
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+Debug/
+Release/
