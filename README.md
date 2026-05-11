@@ -1,4 +1,3 @@
-# embedded-journey-2026
 # Embedded Journey 2026
 
 A structured 6-month journey from C fundamentals to bare-metal STM32 firmware development.
