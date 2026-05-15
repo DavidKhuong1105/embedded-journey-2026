@@ -18,3 +18,16 @@ Thumbs.db
 build/
 Debug/
 Release/
+
+# STM32CubeIDE build artifacts
+**/Debug/
+**/Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.d
+*.su
+**/.metadata/
