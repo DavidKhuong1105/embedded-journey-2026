@@ -12,7 +12,7 @@ Target: embedded firmware internship at a German company in Vietnam by August 20
 ### Month 1 — C Fundamentals (May 2026)
 - [x] Week 1: variables, loops, conditionals, functions
 - [x] Week 2: multi-file C, scope/lifetime, static, recursion, refactoring
-- [ ] Week 3: pointers deep dive, function pointers, double pointers, const
+- [x] Week 3: pointers deep dive, function pointers, double pointers, const
 - [ ] Week 4: structs, alignment, first STM32 bare-metal LED blink
 
 ### Month 2 — Memory & Data Structures (June 2026)
