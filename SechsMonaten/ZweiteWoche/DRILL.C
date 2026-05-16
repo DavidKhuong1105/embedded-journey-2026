@@ -1,11 +1,11 @@
 #include<stdio.h>
 
 
-/*
-    *@brief swapping two input values from the user
-    *@param a and b is integer
-    *@result value of a and b swapped 
-*/
+/**
+ * @brief Swap the values of two integers via pointers.
+ * @param a Pointer to first integer (modified)
+ * @param b Pointer to second integer (modified)
+ */
 void swap(int *a, int *b);
 
 
