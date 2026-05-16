@@ -10,15 +10,23 @@ void swap(int *a, int *b);
 
 
 int main(void){
-    int a;
-    printf("Input value for a: \n");
-    scanf("%d",&a);
-    int b;
-    printf("Input value for b: \n");
-    scanf("%d",&b);
-    swap(&a,&b);
-    printf("a = %d\n",a);
-    printf("b = %d",b);
+    int a, b, pass;
+
+    a = 5; b = 10;
+    swap(&a, &b);
+    pass = (a == 10 && b == 5);
+    printf("Test 1: swap(5,10) -> a=%d b=%d [%s]\n", a, b, pass ? "PASS" : "FAIL");
+
+    a = -3; b = 7;
+    swap(&a, &b);
+    pass = (a == 7 && b == -3);
+    printf("Test 2: swap(-3,7) -> a=%d b=%d [%s]\n", a, b, pass ? "PASS" : "FAIL");
+
+    a = 0; b = 0;
+    swap(&a, &b);
+    pass = (a == 0 && b == 0);
+    printf("Test 3: swap(0,0) -> a=%d b=%d [%s]\n", a, b, pass ? "PASS" : "FAIL");
+    return 0;
 }
 
 void swap(int *a, int *b){
