@@ -97,8 +97,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13); //We want to change the status of the output pin 13
-	  HAL_Delay(500); // delay 500 meaning after 500ms the pin toggle again
   }
   /* USER CODE END 3 */
 }
